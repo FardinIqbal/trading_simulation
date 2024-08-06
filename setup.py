@@ -1,3 +1,6 @@
+# setup.py
+# This file contains the configuration for packaging the trading_simulation project
+
 from setuptools import setup, find_packages
 
 setup(

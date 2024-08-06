@@ -1,4 +1,5 @@
 # trading_simulation/config.py
+# This file contains the configuration settings for the simulation
 
 class SimulationConfig:
     def __init__(self):

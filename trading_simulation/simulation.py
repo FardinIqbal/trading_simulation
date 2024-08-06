@@ -1,7 +1,7 @@
-# Filename: trading_simulation/simulation.py
-# Description: This module contains the main logic for running a Monte Carlo simulation
-#              to analyze the probability of passing a prop firm trading test with
-#              trailing stops and profit targets.
+# trading_simulation/simulation.py
+# This module contains the main logic for running a Monte Carlo simulation
+# to analyze the probability of passing a prop firm trading test with
+# trailing stops and profit targets.
 
 import numpy as np
 

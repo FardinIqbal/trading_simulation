@@ -1,4 +1,5 @@
 # tests/test_utils.py
+# This file contains unit tests for the utility functions
 
 import unittest
 from trading_simulation.utils import calculate_probability

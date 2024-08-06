@@ -1,4 +1,5 @@
 # tests/test_simulation.py
+# This file contains unit tests for the MarketSimulation class
 
 import unittest
 from trading_simulation.simulation import MarketSimulation
