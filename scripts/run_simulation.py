@@ -1,6 +1,7 @@
 # scripts/run_simulation.py
 
 from trading_simulation import MarketSimulation, SimulationConfig
+from trading_simulation.profitability import calculate_expected_return
 import matplotlib.pyplot as plt
 
 
@@ -19,6 +20,15 @@ def main():
     success_probability, all_balances = simulation.run()
 
     print(f"Probability of success: {success_probability * 100:.2f}%")
+
+    # Calculate and print the expected return
+    cost_per_attempt = 179.80
+    expected_return = calculate_expected_return(
+        success_probability,
+        config.profit_target,
+        cost_per_attempt
+    )
+    print(f"Expected Return per Attempt: ${expected_return:.2f}")
 
     # Plotting the balance of a few trials
     for trial_balances in all_balances[:10]:

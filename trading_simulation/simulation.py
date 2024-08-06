@@ -5,7 +5,6 @@
 
 import numpy as np
 
-
 class MarketSimulation:
     """
     A class to represent a market simulation for trading strategies.
